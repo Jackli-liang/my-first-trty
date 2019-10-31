@@ -1,0 +1,20 @@
+飞机大战开发流程：
+	1. 导入包
+		import pygame,sys
+	2. 包的初始化
+		pygame.init()
+	3. 创建窗口屏幕对象(screen surface)
+		screen = pygame.display.set_mode((500,400))
+  #   游戏中的图片：bg = pygame.Image.load("绝对路径")
+		
+		
+	4. 游戏主循环:
+		1. 处理游戏事件
+		for event in pygame.type:
+		     if event.type == pygame.QUIT:
+		           pygame.quit()
+	   	           sys.exit()
+		2. 更新游戏状态
+		3. 在屏幕上绘制
+
+pygame.
